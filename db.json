@@ -1,0 +1,1110 @@
+{
+  "fixtures": [
+    {
+      "Ashanti": [
+        [
+          {
+            "nameOfSchool": "WORLD LINKS ACADEMY ",
+            "district": "KUMASI METROPOLITAN",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Infant Jesus Lumen Christi School",
+            "district": "Ayeduase- Newsite (KNUST)",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Grace Light Educational Complex",
+            "district": "Ahenema Kokoben",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "ST. AGARTHA DA JHS",
+            "district": "kwabre East Municipal",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "State Boys M/A JHS",
+            "district": "Suame Roundabout",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Nana Quainoo Memorial School",
+            "district": "Boadi",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "FUMESUA ANGLICAN SCHOO",
+            "district": "OFFINSO SOUTH MUNICIPAL",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "PARADISE HOPE INTERNATIONAL SCHOOL",
+            "district": "ATWIMA NWABIAGYA MUNICIPAL",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "Kyere Educational Complex",
+            "district": "Kenyasi-Truba",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "GOLDEN STATE ACADEMY",
+            "district": "KUMASI METROPOLITAN",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Universal International School",
+            "district": "Mim",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Salem Montessori School",
+            "district": "Oforikrom",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "PROGRESSIVE SHALOM INT.JHS",
+            "district": "JUABEN MUNICIPAL",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Konadu Yiadom M/A JHS",
+            "district": "Ash-Town",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "St. Anthony R/C JHS",
+            "district": "Bantama",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "AGASSI MEMORIAL SCHOOL",
+            "district": "EJISU MUNICIPAL",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "New World School",
+            "district": "Atonsu",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "Opoku Ware M/A JHS",
+            "district": "Santasi",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "PREMPEH EXP M/A BASIC C",
+            "district": "KWADASO MUNICIPAL",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Great Faith Rockery School",
+            "district": "Ahenema Kokoben",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Emmanuel Methodist JHS",
+            "district": "Oduom",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "SOS HERMANN GMNEINER",
+            "district": "Asokore Mampong ",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "St. louis Jubilee School",
+            "district": "KUMASI METROPOLITAN",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "BOPP D/A Basic School",
+            "district": "Adum Banso Estate",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "MARTYRS OF UGANDA R/C JHS",
+            "district": "KUMASI METROPOLITAN",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Adonia Angels Academy",
+            "district": "Tarkwa-Maakro",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Good Shepherd R/C JHS",
+            "district": "Ahinsan Estates",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "GOD'S GRACE INTERNATIONAL, ABUONTEM",
+            "district": "BEKWAI MUNICIPAL ",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Celestial Hope educational Complex",
+            "district": "Adugyama",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "HOPFA EDUCATIONAL CENTRE BASIC SCHOOL",
+            "district": "ATWIMA NWABIAGYA MUNICIPAL",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Best Brain International School",
+            "district": "Kronom-Abuohia",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Manna International School",
+            "district": "Bremang UGC",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "Uaddara NJHS",
+            "district": "KUMASI METROPOLITAN",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "MOUNT OLIVET INT JHS",
+            "district": "KUMASI METROPOLITAN",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "KNUST Basic Schools",
+            "district": "KNUST",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Weweso M/A JHS",
+            "district": "Kentinkrono",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "EJISU MODEL SCHOOL",
+            "district": "EJISU MUNICIPAL",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Bethelinter Academy",
+            "district": "Gyinase",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Rockanje Presby Exp. JHS",
+            "district": "Old-Tafo",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "CHRIST FOUNDATION ACADEMY",
+            "district": "KUMASI METROPOLITAN",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Asamang D/A JHS",
+            "district": "Asuofia",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Global Community School",
+            "district": "Kotwi",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "RIVERSIDE ACADEMY",
+            "district": "BOTSOMTWE DISTRICT",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Reach High School",
+            "district": "Kenyasi-Truba",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Matta Devi Basi School",
+            "district": "Gyinase",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": " ST THERESA R/C JHS",
+            "district": "KUMASI METROPOLITAN",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Rejoice National School",
+            "district": "Ahwiaa (Moro market)",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Trinity Foundation School",
+            "district": "Anwomaso",
+            "region": "Ashanti",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "CALVARY METHODIST JHS",
+            "district": "EJISU MUNICIPAL",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Happy Royals International School",
+            "district": "Sawaba-New site",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "BUOKROM BETHEL METHODIST JHS",
+            "district": "KUMASI METROPOLITAN",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "MOTHER SMITH INTERNATIONAL  SCHOOL",
+            "district": "EJISU MUNICIPAL",
+            "region": "Ashanti",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Notre-Dame School",
+            "district": "Kenyase",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "ABRAHAM LINCOLN INTERNATIONAL SCHOOL",
+            "district": "KUMASI METROPOLITAN",
+            "region": "Ashanti",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ]
+      ],
+      "id": 1
+    },
+    {
+      "Greater": [
+        [
+          {
+            "nameOfSchool": "Achimota Basic School",
+            "district": "Okaikwei North",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Kokomlemle '1' Basic",
+            "district": "Ayawaso Central",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Glorious Hope Academy",
+            "district": "Ada West District",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "ST.  MARTIN  DE  PORRES SCHOOL",
+            "district": "ABLEKUMA  WEST",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Mallam M/A 1 Basic",
+            "district": "Weija Gbawe",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "PRAMPRAM D/A A  BASIC",
+            "district": "NINGO PRAMPRAM",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "QueenLand International",
+            "district": "Tema West Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Awudome 1 JHS",
+            "district": "Accra Metro",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "ABOSSEY OKAI METHODIST BASIC",
+            "district": "ABLEKUMA CENTRAL",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Star Holy Kingdom Academy",
+            "district": "Gbetsile-Tema",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": " ST JOSEPH R/C JHS, FISE AMASAMAN",
+            "district": "Ga West Municipal",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Christ Fellowship Academy",
+            "district": "Ga south",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Mizpah International School",
+            "district": "Okaikwei North",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Villac International School",
+            "district": "GA NORTH MUNICIPAL",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Smart International School",
+            "district": "Kpone",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "ST.  BERNADETTE  SOUBIROUS SCHOOL",
+            "district": "ABLEKUMA  WEST",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Predes School complex",
+            "district": "Kpon  Katamanso",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "St.Anthony R/C Basic School",
+            "district": "GA NORTH MUNICIPAL",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "St. Theresa's School",
+            "district": "Accra Metro",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "ATOMIC HILLS TWO",
+            "district": "GA EAST",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Weija Presby JHS",
+            "district": "Weija Gbawe",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "CJ SCHOOLS",
+            "district": "AYAWASO CENTRAL MUNICIPAL",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "L/A Memorial School",
+            "district": "Weija Gbawe",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "Bonikope School Complex",
+            "district": "Ada West District",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "North Ridge Lyceum",
+            "district": "Accra Metro",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "NEWMAN MEMORIAL",
+            "district": "ABLEKUMA CENTRAL",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "SERVICES PRIMARY AND JHS",
+            "district": "LA DADE-KOTOPON MUNICIPAL",
+            "region": "Greater",
+            "zone": "3",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Rising Star montessori",
+            "district": "Taifa",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Tema Regular Baptist school",
+            "district": "Tema Metro",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "Winners Family School",
+            "district": "Weija Gbawe",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Hannah School complex",
+            "district": "La Nkwantanang",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Sakumono Complex 1&2 JHS",
+            "district": "Tema West Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "ANCILAR PREPARATORY",
+            "district": "Achimota",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Mary Star of the Sea",
+            "district": "Ga south",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Christ Faith Mission 1JHS",
+            "district": "Adentan Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "ANCHILLAR PREPARATORY SCHOOL GA EAST",
+            "district": "GA EAST",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Crown  Prince International School",
+            "district": "Ablekuma North",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Holy KIDS",
+            "district": "Tema West Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "St Kizito R/C Basic",
+            "district": "AYAWASO EAST MUNICIPAL",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "West End InternationaL",
+            "district": "Ga south",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Tema Brotherhood Preparatory school",
+            "district": "Tema Metro",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "Faith Baptist JHS",
+            "district": "La Nkwantanang",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "LIBERTY HILLS INTERNATIONAL",
+            "district": "NINGO PRAMPRAM",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Pat Goshen Academy",
+            "district": "Ablekuma North",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "CHRISTLOVE INTERNATIONAL",
+            "district": "Ada East",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Michel Camp One JHS",
+            "district": "Ashaiman Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "St. Paul's Lutheran school",
+            "district": "AYAWASO EAST MUNICIPAL",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "STAR  OF THE SEA R/C BASIC",
+            "district": "ABLEKUMA  WEST",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "LORD'S STAR INT SCHOOL",
+            "district": "Ashaiman Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": " Kaneshie Awudome '1' JHS",
+            "district": "Accra Metro",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "ST. Thomas International school",
+            "district": "LA DADE-KOTOPON MUNICIPAL",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Gods Grace Academy",
+            "district": "Okaikwei North",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "UNIQUE CHILD INT. SCHOOL",
+            "district": "Ledzokuku Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Ringway Estate Basic",
+            "district": "Korle klottey",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Glorich School",
+            "district": "Okaikwei North",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Sakumono SDA Sea View",
+            "district": "Tema West Municipal ",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "Prince of Peace",
+            "district": "Ablekuma North",
+            "region": "Greater",
+            "zone": "B",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Lims Preparatory",
+            "district": "Shai Osu",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "Wajir Barracks 'B' Basic",
+            "district": "Ledzokuku Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": " Aristoland",
+            "district": "Krowor Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Additrom Preparatory",
+            "district": "Korle klottey",
+            "region": "Greater",
+            "zone": "C",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "1"
+          },
+          {
+            "nameOfSchool": "St.Paul Methodist JHS",
+            "district": "Tema Metro",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "winningfaith International school",
+            "district": "Ada West District",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Presec one JHS",
+            "district": "La-Nkwantanang",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "Kiddie Class Preparatory",
+            "district": "Accra Metro",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Dawhenya Methodist B Basic",
+            "district": "Ningo-Prampram",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "Ashridge International Montessori School",
+            "district": "Krowor Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "2"
+          },
+          {
+            "nameOfSchool": "Ashma No 1 JHS",
+            "district": "Ashaiman Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "GOSHEN COMMUNITY SCHOOL",
+            "district": "LA DADE-KOTOPON MUNICIPAL",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ],
+        [
+          {
+            "nameOfSchool": "De Youngster's International School Adenta",
+            "district": "Adentan Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "Quaye Nungua R C JHS",
+            "district": "Krowor Municipal",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          },
+          {
+            "nameOfSchool": "LABONE SDA CHURCH SCHOOL",
+            "district": "LA DADE-KOTOPON MUNICIPAL",
+            "region": "Greater",
+            "zone": "A",
+            "logo": "/static/media/bolgatanga-senior-high.f2a8583ae39108e72f15.png",
+            "category": "3"
+          }
+        ]
+      ],
+      "id": 2
+    },
+    {
+      "Greater": [],
+      "id": 3
+    }
+  ]
+}

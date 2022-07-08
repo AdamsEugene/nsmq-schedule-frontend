@@ -1,14 +1,19 @@
 export interface ISchoolData {
   nameOfSchool: string;
   region: string;
-  district: string;
+  district?: string;
   zone: string;
   logo: string;
   category: string;
+  seeded?: boolean;
 }
 
 export interface ISchool {
   schools: ISchoolData[];
+}
+
+export interface ISchoolMulti {
+  schools: ISchoolData[][];
 }
 
 export interface IShow {
@@ -41,4 +46,8 @@ export interface IModal {
 
 export interface IFixtures {
   fixtures: ISchoolData[][];
+}
+
+export interface IAlert {
+  type?: "warning" | "success" | "error";
 }

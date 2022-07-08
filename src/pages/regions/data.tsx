@@ -1,8 +1,11 @@
 import {
   GlobalOutlined,
-  AlipayCircleOutlined,
+  PlayCircleOutlined,
   ScheduleOutlined,
   TrophyOutlined,
+  Loading3QuartersOutlined,
+  RadiusUpleftOutlined,
+  CheckSquareOutlined,
 } from "@ant-design/icons";
 import { MenuProps } from "antd";
 
@@ -25,7 +28,7 @@ function getItem(
 const regions = ["Greater Accra", "Northern", "Western", "Ashanti"].sort();
 
 export const items: MenuItem[] = [
-  getItem("SEEDED SCHOOL", "seeded Seeded Schools", <AlipayCircleOutlined />),
+  getItem("SEEDED SCHOOL", "seeded Seeded Schools", <PlayCircleOutlined />),
   getItem(
     "REGIONS",
     "regions",
@@ -35,23 +38,19 @@ export const items: MenuItem[] = [
   getItem(
     "REGIONAL CONTESTS",
     "REGIONAL",
-    <GlobalOutlined />,
+    <ScheduleOutlined />,
     regions.map((region) =>
       getItem(region, `regions ${region} region preliminary stage CONTESTS`)
     )
   ),
-  getItem("Quarter Finals", "Quarter", <GlobalOutlined />),
-  getItem("Semi Finals", "Semi", <GlobalOutlined />),
-  getItem("Finals", "Finals", <GlobalOutlined />),
+  getItem("Quarter Finals", "Quarter", <Loading3QuartersOutlined />),
+  getItem("Semi Finals", "Semi", <RadiusUpleftOutlined />),
+  getItem("Finals", "Finals", <TrophyOutlined />),
   getItem(
     "Fixtures",
     "fixtures",
-    <TrophyOutlined />,
-    regions.map((region) => getItem(region, `fixtures ${region} CONTESTS`))
+    <CheckSquareOutlined />,
+
+    regions.map((region) => getItem(region, `fixtures ${region} FIXTURES`))
   ),
-  getItem("Schedule", "schedule", <ScheduleOutlined />, [
-    getItem("Tom", "Tom"),
-    getItem("Bill", "Bill"),
-    getItem("Alex", "Alex"),
-  ]),
 ];

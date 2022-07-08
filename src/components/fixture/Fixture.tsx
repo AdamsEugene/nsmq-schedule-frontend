@@ -1,12 +1,12 @@
 import { Button, Timeline } from "antd";
-import { ISchool, ISchoolData } from "../../types/@types";
+import { ISchoolData, ISchoolMulti } from "../../types/@types";
 import { Cards } from "../../pages/regions/Card";
 import * as Com from "./Fixture.styles";
 import { Fragment } from "react";
-import { chunks } from "./chunks";
+// import { chunks } from "./chunks";
 
-export const Fixture: React.FC<ISchool> = (props) => {
-  const schools: ISchoolData[][] = chunks(props.schools, 3);
+export const Fixture: React.FC<ISchoolMulti> = (props) => {
+  const schools: ISchoolData[][] = props.schools;
 
   return (
     <Fragment>
@@ -17,7 +17,7 @@ export const Fixture: React.FC<ISchool> = (props) => {
               <Com.Container>
                 <Com.InnerContainer>
                   {school.map((s, i) => (
-                    <Fragment key={s?.nameOfSchool + s?.district}>
+                    <Fragment key={s?.nameOfSchool + s?.category}>
                       {i > 0 ? (
                         <Button size="large" type="primary" shape="circle">
                           VS

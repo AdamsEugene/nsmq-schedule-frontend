@@ -1,24 +1,47 @@
 import { Button, Modal as MD } from "antd";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { useReactToPrint } from "react-to-print";
 import {
   generateAllAtATime,
   generateBatch,
   groupSchoolsByCategory,
   pickFirstRandomSchool,
   pickOtherSchools,
+  removeSeededSchools,
 } from "../../functions/func";
+import { postData } from "../../functions/postData";
 import { unique } from "../../functions/unique";
 import { IModal, IRegion, ISchool, ISchoolData } from "../../types/@types";
+import { Alert } from "../alert/Alert";
 import { Fixture } from "../fixture";
+import { chunks } from "../fixture/chunks";
 
 import * as Com from "./Modal.styles";
 
 export const Modal: React.FC<IModal & ISchool & IRegion> = (props) => {
   const [fixtures, setFixtures] = useState<ISchoolData[]>([]);
   const [allFixtures, setAllFixtures] = useState<ISchoolData[]>([]);
+  const [knownSchools, setKnownSchools] = useState<ISchoolData[]>([]);
   const [steps, setSteps] = useState<number>(1);
+  const [alert, setAlert] = useState<
+    "warning" | "success" | "error" | undefined
+  >();
 
-  const schools = groupSchoolsByCategory(props.schools || []);
+  const dep = props.region + "" + props.type;
+
+  let allSchools = props.schools || [];
+
+  if (props.type === "CONTESTS") {
+    allSchools = removeSeededSchools(props.schools || []) || [];
+  }
+
+  useEffect(() => {
+    setAllFixtures([]);
+    setKnownSchools([]);
+    setAlert(undefined);
+  }, [dep]);
+
+  const schools = groupSchoolsByCategory(allSchools || []);
 
   const genWithSteps = () => {
     setSteps((prev) => (prev >= 3 ? 1 : prev + 1));
@@ -27,73 +50,112 @@ export const Modal: React.FC<IModal & ISchool & IRegion> = (props) => {
         schools,
         unique(allFixtures)
       ).school;
+
       setFixtures(firstSchool);
       setAllFixtures((p) => [...p, ...firstSchool]);
     } else {
-      const others = pickOtherSchools(fixtures, props.schools).school;
+      const others = pickOtherSchools(unique(fixtures), allSchools).school;
       setFixtures(others);
       setAllFixtures((p) => [...p, ...others]);
     }
   };
 
   const genOneByOneNoSteps = () => {
-    setAllFixtures((p) => [
-      ...p,
-      ...unique(generateBatch(props.schools, unique(allFixtures))),
-    ]);
+    const schools = knownSchools.length ? knownSchools : allSchools;
+    const { school, newSchool } = generateBatch(schools, unique(allFixtures));
+
+    setKnownSchools(newSchool);
+    setAllFixtures((p) => unique([...p, ...school]));
   };
+  // console.log(unique(allFixtures).length);
 
   const genAll = () => {
     setAllFixtures((p) => [
       ...p,
-      ...unique(generateAllAtATime(props.schools, unique(allFixtures))),
+      ...unique(generateAllAtATime(allSchools, unique(allFixtures))),
     ]);
   };
 
+  // console.log(props.schools?.length);
+  const saveOutput = () => {
+    if (props.region && allFixtures.length)
+      postData(" http://localhost:3004/fixtures", {
+        [props.region]: chunks(allFixtures, 3),
+      })
+        .then((res) => setAlert("success"))
+        .catch((e) => setAlert("error"));
+    else setAlert("error");
+  };
+
+  // const onPrint = () => {};
+
   // console.log(unique(allFixtures));
+  const title = `${props.region} Region Contests`;
+
+  const componentRef = useRef<null | HTMLDivElement>(null);
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+  });
+
+  const ComponentToPrint = React.forwardRef<HTMLDivElement>((props, ref) => {
+    return (
+      <Com.Content ref={ref}>
+        {unique(allFixtures).length ? (
+          <Fixture schools={chunks(unique(allFixtures), 3)} />
+        ) : null}
+        <Alert type={alert} />
+      </Com.Content>
+    );
+  });
 
   return (
     <Com.Container>
       <MD
-        title="Contests"
+        title={title}
         centered
         visible={props.visible}
         onCancel={() => props.setVisible(false)}
         width={"90%"}
-        bodyStyle={{ height: 700, overflowY: "auto" }}
+        bodyStyle={{ height: 730, overflowY: "auto" }}
         footer={[
-          <Button key="back" onClick={() => {}}>
+          <Button key="back" onClick={() => props.setVisible(false)}>
             Cancel
           </Button>,
           <Button
             key="butch"
-            disabled={unique(allFixtures).length === props.schools?.length}
+            disabled={unique(allFixtures).length === allSchools?.length}
             onClick={genAll}
           >
-            Generate in butch
+            batch
           </Button>,
           <Button
             key="One by one"
-            disabled={unique(allFixtures).length === props.schools?.length}
+            disabled={unique(allFixtures).length === allSchools?.length}
             onClick={genOneByOneNoSteps}
           >
-            Generate One by one
+            One by one
           </Button>,
           <Button
             key="with steps"
-            disabled={unique(allFixtures).length === props.schools?.length}
+            disabled={unique(allFixtures).length === allSchools?.length}
             onClick={genWithSteps}
           >
-            Generate one by one with steps
+            one by one with steps
           </Button>,
-          <Button key="submit" type="primary" loading={true} onClick={() => {}}>
-            Next
+          <Button key="print" type="link" loading={false} onClick={handlePrint}>
+            Print
+          </Button>,
+          <Button
+            key="submit"
+            type="primary"
+            loading={false}
+            onClick={saveOutput}
+          >
+            Save
           </Button>,
         ]}
       >
-        <Com.Content>
-          {allFixtures.length && <Fixture schools={unique(allFixtures)} />}
-        </Com.Content>
+        <ComponentToPrint ref={componentRef} />
       </MD>
     </Com.Container>
   );

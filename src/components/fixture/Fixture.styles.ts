@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   gap: 48px;
+  margin-left: 100px;
 `;
 
 export const InnerContainer = styled.div`
